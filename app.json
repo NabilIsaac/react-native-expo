@@ -1,29 +1,25 @@
 {
   "expo": {
-    "name": "task-manager-app",
-    "slug": "task-manager-app",
+    "name": "Todo App",
+    "slug": "todo-app-nabil-123",
+    "owner": "mbababe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "platforms": [
+      "android"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.nabilisaac.todoapp",
+      "versionCode": 1
     },
-    "platforms": ["ios", "android"],
-    "sdkVersion": "52.0.0"
+    "extra": {
+      "eas": {
+        "projectId": "f76d7cfe-8370-486c-b547-f2d0c27c95d3"
+      }
+    }
   }
 }
