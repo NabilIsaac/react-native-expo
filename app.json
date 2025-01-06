@@ -7,7 +7,8 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ],
     "assetBundlePatterns": [
       "**/*"
@@ -16,10 +17,14 @@
       "package": "com.nabilisaac.todoapp",
       "versionCode": 1
     },
+    "ios": {
+      "bundleIdentifier": "com.nabilisaac.todoapp"
+    },
     "extra": {
       "eas": {
         "projectId": "f76d7cfe-8370-486c-b547-f2d0c27c95d3"
       }
-    }
+    },
+    "sdkVersion": "52.0.0"
   }
 }
